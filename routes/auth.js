@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
 const router = express.Router();
-const { Register } = require('../model/users');
-const db = require('../config/db');
+// const { Register } = require('../model/users');
+// const db = require('../config/db');
 const { getUsers, setUsers } = require('../controllers/userController');
 app.use(router);
 router.use(express.json())
